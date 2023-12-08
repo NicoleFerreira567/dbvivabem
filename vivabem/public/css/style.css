@@ -78,7 +78,7 @@
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #F41E1E;
+  --theme-color: #1ef4c6;
   --title-color: #1C1C1C;
   --body-color: #7B7E86;
   --smoke-color: #F3F3F3;
@@ -126,21 +126,13 @@ body::-webkit-scrollbar {
   height: 10px;
 }
 body::-webkit-scrollbar-track {
-  background: rgba(81, 240, 251, 0.1);
+  background: rgba(251, 212, 81, 0.1);
 }
 body::-webkit-scrollbar-thumb {
   background: var(--theme-color);
   border-radius: 0px;
 }
-body.home-3 {
-  background: var(--smoke-color5);
-}
-body.home-3 .btn {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  padding: 20.5px 35px 20.5px;
-}
+
 
 iframe {
   border: none;
@@ -323,91 +315,7 @@ h6 {
   line-height: 1.5;
 }
 
-/* Medium Large devices */
-@media (max-width: 1399px) {
-  .h1,
-  h1 {
-    font-size: 48px;
-  }
-}
-/* Large devices */
-@media (max-width: 1199px) {
-  .h1,
-  h1 {
-    font-size: 44px;
-    line-height: 1.3;
-  }
-  .h2,
-  h2 {
-    font-size: 40px;
-    line-height: 1.25;
-  }
-  .h3,
-  h3 {
-    font-size: 30px;
-  }
-  .h4,
-  h4 {
-    font-size: 24px;
-  }
-  .h5,
-  h5 {
-    font-size: 20px;
-  }
-  .h6,
-  h6 {
-    font-size: 16px;
-  }
-}
-/* Small devices */
-@media (max-width: 767px) {
-  .h1,
-  h1 {
-    font-size: 40px;
-  }
-  .h2,
-  h2 {
-    font-size: 34px;
-    line-height: 1.3;
-  }
-  .h3,
-  h3 {
-    font-size: 26px;
-  }
-  .h4,
-  h4 {
-    font-size: 22px;
-  }
-  .h5,
-  h5 {
-    font-size: 18px;
-  }
-  .h6,
-  h6 {
-    font-size: 16px;
-  }
-}
-/* Extra small devices */
-@media (max-width: 575px) {
-  .h1,
-  h1 {
-    font-size: 34px;
-    line-height: 1.35;
-  }
-  .h2,
-  h2 {
-    font-size: 30px;
-  }
-}
-/* Extra small devices */
-@media (max-width: 375px) {
-  .h1,
-  h1 {
-    font-size: 32px;
-  }
-}
-/*------------------- 1.6. Extend -------------------*/
-/*------------------- 1.7. Wordpress Default -------------------*/
+
 .admin-bar .default-header .sticky-wrapper.sticky {
   top: 32px;
 }
@@ -4639,8 +4547,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 .main-menu ul.sub-menu li ul.sub-menu li ul {
   left: 100%;
-.main-menu a {
-    right: auto;
+  right: auto;
 }
 
 /****header-top*****/
@@ -14659,4 +14566,3 @@ span.select2-selection.select2-selection--single:focus {
     padding-top: 65px;
   }
 }
-

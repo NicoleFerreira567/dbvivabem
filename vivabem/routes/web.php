@@ -35,4 +35,10 @@ Route::get('/noticia',[NoticiasController::class, 'index'])->name('noticia');
 Route::get('/treino', [TreinoController::class, 'index'])->name('treino');
 Route::get( '/sobre', [SobreController::class, 'index'])->name('sobre');
 Route::get('/modalidade', [ModalidadeController::class, 'index'])->name('modalidade');
+Route::get('/modalidade/musculacao', [ModalidadeController::class, 'index'])->name('modalidade.musculacao');
+Route::get ('/modalida/Aerobica',[ModalidadeController::class, 'index'])->name('modalidade.aerobica');
+Route::get('/modalidade/Pilates',[ModalidadeController::class, 'index'])->name('modalidade.pilates');
+Route::get('/modalidade/Yoga',[ModalidadeController::class, 'index'])->name('modalidade.yoga');
+Route::get('/modalidade/TreinamentoFuncional',[ModalidadeController::class, 'index'])->name('modalidade.treinamentofuncional');
+
 Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
